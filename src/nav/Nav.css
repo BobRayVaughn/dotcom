@@ -3,10 +3,11 @@ nav {
 	position: sticky;
 	z-index: 10;
 	top: 0;
-	padding: 1.2em 0;
 	color: white;
-	background-color: var(--darkAccent);
+	background-color:#82A7A6;
 	max-height: 4em;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav span {

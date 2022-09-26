@@ -1,0 +1,11 @@
+img {
+    display: flex;
+    width: 30%;
+    height: auto;
+    padding:2%;
+    margin: 2%;
+}
+
+h3, p {
+    text-align: right;
+}

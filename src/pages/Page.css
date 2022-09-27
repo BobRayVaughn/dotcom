@@ -1,7 +1,7 @@
-/* section {
+section {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	/* justify-content: center; */
 	height: 100vh;
 	width: 100%;
 	
@@ -9,16 +9,6 @@
 
 section:nth-child(even) {
 	flex-direction: row-reverse;
-}
-
-section img,
-section div {
-	height: auto;
-	width: 100%;
-}
-
-section img {
-	width: 50%;
 }
 
 section div {
@@ -31,5 +21,10 @@ section div {
 
 p {
 	font-size:x-large;
-	color: antiquewhite;
-} */
+	color: #ada69b;
+}
+
+img {
+	display: flex;
+	border: 0px ;
+}

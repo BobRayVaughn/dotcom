@@ -12,8 +12,8 @@ const Home = () => {
 		<section ref={homeRef} id='homeContainer'>
 			<img src= { IMAGES.brvf } alt='Bob Ray Vaughn'/>
 			<div>
-				<h3>HOME</h3>
-				<p>This is the home section</p>
+				<h3>Welcome to my hand crafted, organic, free range personal portfolio website</h3>
+				
 			</div>
 		</section>
 	);

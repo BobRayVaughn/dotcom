@@ -9,6 +9,7 @@ const IMAGES = {
     warhammer: require('./warhammer.jpg'),
     brvf: require('./brvf.JPG'),
     brvc: require('./brvc.JPG'),
+    dal1: require('./dal1.JPG'),
 }
 
 export default IMAGES;

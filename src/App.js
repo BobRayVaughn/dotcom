@@ -11,9 +11,6 @@ function App() {
 				<Nav />
 				<Main />
 			</NavProvider>
-        <p>
-          Work in Progress
-        </p>
       </header>
     </div>
   );

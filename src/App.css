@@ -5,20 +5,20 @@
 	flex-direction: column;
 	margin: 0;
 	padding: 0;
-	background-color: #282c34;
+	background-image: url(../src/images/dal1.JPG);
+	background-attachment: fixed;
+	background-size: cover;
 }
 
-.App-header {
-	background-color: #282c34;
-  }
-
-p {
-	color:antiquewhite;
+p, h3 {
+	color: #ada69b;
+	background: rgba(0, 0, 0, 0.7);
+	font-family:'Consolas', monospace ;
+	margin: 25px;
   }
   
 .App {
 	text-align: center;
-	background-color: #282c34;
   }
 
   html {

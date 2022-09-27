@@ -1,0 +1,35 @@
+section {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	height: 100vh;
+	width: 100%;
+	
+}
+
+section:nth-child(even) {
+	flex-direction: row;
+}
+
+/* section img,
+section div {
+	height: auto;
+	width: 100%;
+} */
+
+/* section img {
+	width: 50%;
+} */
+
+section div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 1em;
+}
+
+p {
+	font-size:x-large;
+	color: #ada69b;
+}

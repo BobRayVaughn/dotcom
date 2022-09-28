@@ -1,65 +1,86 @@
-/* import React from 'react';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-import IMAGES from '../images';
-
-const slideImages = [
-  {
-    src: IMAGES.brvc
-  },
-  {
-    src: IMAGES.doug
-  },
-  {
-    src: IMAGES.scorp
-  },
-  {
-    src: IMAGES.bowling
-  },
-  {
-    src: IMAGES.gunpla
-  },
-  {
-    src: IMAGES.warhammer
-  },
-  {
-    src: IMAGES.helm
-  },
-  {
-    src: IMAGES.fsi
-  },
-  {
-    src: IMAGES.fso
-  }
-]; */
-
-
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
+//import 'react-slideshow-image/dist/styles.css'
+import IMAGES from '../images';
+import './Slideshow.css';
 
 const Slideshow = () => {
-    const images = [
-        "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-        "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-        "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    ];
+
+  const slideImages = [
+    {
+      src: IMAGES.brvc
+    },
+    {
+      src: IMAGES.doug
+    },
+    {
+      src: IMAGES.scorp
+    },
+    {
+      src: IMAGES.bowling
+    },
+    {
+      src: IMAGES.gunpla
+    },
+    {
+      src: IMAGES.warhammer
+    },
+    {
+      src: IMAGES.helm
+    },
+    {
+      src: IMAGES.fsi
+    },
+    {
+      src: IMAGES.fso
+    }
+  ];
 
     return (
         <Slide>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[0]})` }}>
+                <div style={{ 'backgroundImage': `url(${slideImages[0]})` }}>
                     <span>Slide 1</span>
                 </div>
             </div>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[1]})` }}>
+                <div style={{ 'backgroundImage': `url(${slideImages[1]})` }}>
                     <span>Slide 2</span>
                 </div>
             </div>
             <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[2]})` }}>
+                <div style={{ 'backgroundImage': `url(${slideImages[2]})` }}>
                     <span>Slide 3</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${slideImages[3]})` }}>
+                    <span>Slide 4</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${slideImages[4]})` }}>
+                    <span>Slide 5</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${slideImages[5]})` }}>
+                    <span>Slide 6</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${slideImages[6]})` }}>
+                    <span>Slide 7</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${slideImages[7]})` }}>
+                    <span>Slide 8</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${slideImages[8]})` }}>
+                    <span>Slide 9</span>
                 </div>
             </div>
         </Slide>

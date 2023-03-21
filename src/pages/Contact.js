@@ -10,7 +10,7 @@ const Contact = () => {
 		<section ref={contactRef} id='contactContainer'>
 			<div>
 				<h3>CONTACT</h3>
-				<p>This is the contact section</p>
+				<p>This is the contact section!</p>
 			</div>
 		</section>
 	);

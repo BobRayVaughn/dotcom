@@ -8,31 +8,31 @@ const Slideshow = () => {
 
   const slideImages = [
     {
-      src: IMAGES.brvc
+      url: IMAGES.brvc
     },
     {
-      src: IMAGES.doug
+      url: IMAGES.doug
     },
     {
-      src: IMAGES.scorp
+      url: IMAGES.scorp
     },
     {
-      src: IMAGES.bowling
+      url: IMAGES.bowling
     },
     {
-      src: IMAGES.gunpla
+      url: IMAGES.gunpla
     },
     {
-      src: IMAGES.warhammer
+      url: IMAGES.warhammer
     },
     {
-      src: IMAGES.helm
+      url: IMAGES.helm
     },
     {
-      src: IMAGES.fsi
+      url: IMAGES.fsi
     },
     {
-      src: IMAGES.fso
+      url: IMAGES.fso
     }
   ];
 
